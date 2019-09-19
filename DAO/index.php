@@ -1,12 +1,11 @@
 <?php
 
-<<<<<<< HEAD
 require_once("config.php");
 
 //Carrega um usuario
 //$root = new Usuario();
 
-//$root->loadById(3);
+//$root->loadbyId(3);
 
 //echo $root;
 //$sql = new Sql();
@@ -29,37 +28,8 @@ require_once("config.php");
 
 //Carrega um usuário usando o login e a senha
 
-//$usuario = new Usuario();
-//$usuario->login("joao", "qwerty");
-//echo $usuario;
-
-//Criando um novo usuário
-//$aluno = new Usuario("aluno", "@lun0");
-
-
-/*Alterar um usuário
-//$aluno->insert();
-
-//echo $aluno;
-
-//$usuario = new Usuario();
-
-//$usuario->loadById(9);
-
-//$usuario->update("professor", "!1234!");
-
-//echo $usuario;*/
-
 $usuario = new Usuario();
-
-$usuario->loadById(7);
-
-$usuario->delete();
-
+$usuario->login("jose","1234567890");
 echo $usuario;
-=======
-echo "Hello World";
 
-
->>>>>>> 9da4f82fa6b4f8d9c38ba1fff2048d0fd362c3bb
 ?>
